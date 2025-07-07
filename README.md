@@ -55,3 +55,22 @@ Ejemplo de respuesta en formato JSON:
    python odoo-bin -c odoo.conf -u prueba_tecnica
 
 4. Instalar el módulo desde el frontend de Odoo → Aplicaciones → Aden Prueba Técnica
+
+## 🖥️ Capturas del módulo
+
+### Modulo Visible
+![Menú General del Modulo](screenshots/modulo-visible.png)
+
+### Menú principal
+![Menú General del Modulo](screenshots/menu-general.png)
+
+### Menú Alumnos
+![Menú de Alumnos](screenshots/menu-general.png)
+
+
+### Vista de formulario de Alumno
+![Formulario de Alumno](screenshots/alumno_form.png)
+
+### Resultado del endpoint API
+![Respuesta JSON del endpoint](screenshots/api_result.png)
+
