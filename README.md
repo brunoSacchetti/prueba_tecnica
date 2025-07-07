@@ -39,20 +39,18 @@ Ejemplo de respuesta en formato JSON:
 - Python 3.12  
 - Odoo 17 instalado (modo desarrollador)  
 - PostgreSQL funcionando  
-- Entorno virtual con dependencias instaladas (`pip install -r requirements.txt`)
+- Entorno virtual con dependencias instaladas (`pip install -r requirements.txt`), ubicado en la carpeta raiz de Odoo Server
 
 ------------------------------------------
 
 ## ⚙️ Instalación
 
-1. Clonar este repositorio en tu carpeta de addons personalizados:
+1. Clonar el repositorio.
 
-   git clone https://github.com/tu-usuario/aden-odoo.git
+2. Agregar al path el custom addons que hicimos, en odoo.conf, dentro del server local de Odoo. Dependerá la versión de Odoo que tengas instalada.
 
-2. Agregar al path el custom addons que hicimos, en odoo.conf, dentro del server local de Odoo
-
-   addons_path = C:\Program Files\Odoo 17\server\odoo\addons,C:\odoo_custom_addons
-
+   addons_path = C:\Program Files\Odoo 17.0.20250703\server\odoo\addons,C:\odoo_custom_addons
+    
 3. Reiniciar el servidor y actualizar la lista de módulos:
 
    python odoo-bin -c odoo.conf -u prueba_tecnica
