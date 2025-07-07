@@ -1,11 +1,11 @@
 # Aden - Prueba Técnica Odoo
 **Autor:** Bruno Sacchetti  
 **Posición:** Desarrollador Backend Jr.  
-**Tecnología:**
-
+##Tecnología:
     - Odoo 17 (Python)
     - IDE: PyCharm  
     - Base de Datos: PostgreSQL
+
 ------------------------------------------
 
 ## 🧩 Descripción
