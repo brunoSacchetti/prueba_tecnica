@@ -1,0 +1,9 @@
+<odoo>
+  <!-- Menú raíz -->
+  <menuitem id="aden_menu_root" name="Aden"/>
+
+  <!-- Submenús -->
+  <menuitem id="aden_menu_alumno" name="Alumnos" parent="aden_menu_root" action="action_aden_alumno"/>
+  <menuitem id="aden_menu_programa" name="Programas" parent="aden_menu_root" action="action_aden_programa"/>
+  <menuitem id="aden_menu_inscripcion" name="Inscripciones" parent="aden_menu_root" action="action_aden_inscripcion"/>
+</odoo>

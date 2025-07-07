@@ -1,0 +1,31 @@
+<odoo>
+  <record id="view_form_aden_inscripcion" model="ir.ui.view">
+    <field name="name">aden.inscripcion.form</field>
+    <field name="model">aden.inscripcion</field>
+    <field name="arch" type="xml">
+      <form string="Inscripción">
+        <group>
+          <field name="alumno_id"/>
+          <field name="programa_id"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_tree_aden_inscripcion" model="ir.ui.view">
+    <field name="name">aden.inscripcion.tree</field>
+    <field name="model">aden.inscripcion</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="alumno_id"/>
+        <field name="programa_id"/>
+      </tree>
+    </field>
+  </record>
+
+  <record id="action_aden_inscripcion" model="ir.actions.act_window">
+    <field name="name">Inscripciones</field>
+    <field name="res_model">aden.inscripcion</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+</odoo>

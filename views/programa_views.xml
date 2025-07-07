@@ -1,0 +1,30 @@
+<odoo>
+  <record id="view_form_aden_programa" model="ir.ui.view">
+    <field name="name">aden.programa.form</field>
+    <field name="model">aden.programa</field>
+    <field name="arch" type="xml">
+      <form string="Programa">
+        <group>
+          <field name="nombre"/>
+          <field name="descripcion"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_tree_aden_programa" model="ir.ui.view">
+    <field name="name">aden.programa.tree</field>
+    <field name="model">aden.programa</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nombre"/>
+      </tree>
+    </field>
+  </record>
+
+  <record id="action_aden_programa" model="ir.actions.act_window">
+    <field name="name">Programas</field>
+    <field name="res_model">aden.programa</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+</odoo>

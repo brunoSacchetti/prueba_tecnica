@@ -1,0 +1,45 @@
+<odoo>
+  <!-- Formulario -->
+  <record id="view_form_aden_alumno" model="ir.ui.view">
+    <field name="name">aden.alumno.form</field>
+    <field name="model">aden.alumno</field>
+    <field name="arch" type="xml">
+      <form string="Alumno">
+        <group>
+          <field name="nombre"/>
+          <field name="apellido"/>
+          <field name="fecha_nacimiento"/>
+          <field name="numero_legajo"/>
+          <field name="email"/>
+          <field name="telefono"/>
+          <field name="direccion"/>
+          <field name="pais_id"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <!-- Lista -->
+  <record id="view_tree_aden_alumno" model="ir.ui.view">
+    <field name="name">aden.alumno.tree</field>
+    <field name="model">aden.alumno</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nombre"/>
+        <field name="apellido"/>
+        <field name="email"/>
+        <field name="numero_legajo"/>
+        <field name="telefono"/>
+        <field name="direccion"/>
+        <field name="pais_id"/>
+      </tree>
+    </field>
+  </record>
+
+  <!-- Acción -->
+  <record id="action_aden_alumno" model="ir.actions.act_window">
+    <field name="name">Alumnos</field>
+    <field name="res_model">aden.alumno</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+</odoo>
