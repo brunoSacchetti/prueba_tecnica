@@ -59,18 +59,33 @@ Ejemplo de respuesta en formato JSON:
 ## 🖥️ Capturas del módulo
 
 ### Modulo Visible
-![Menú General del Modulo](screenshots/modulo-visible.png)
+![Modulo Visible](screenshots/modulo-visible.png)
+
+### Modulo Instalado 
+![Modulo Instalado](screenshots/modulo-instalado.png)
 
 ### Menú principal
-![Menú General del Modulo](screenshots/menu-general.png)
+![Menú principal](screenshots/menu-general.png)
 
 ### Menú Alumnos
-![Menú de Alumnos](screenshots/menu-general.png)
-
+![Menú de Alumnos](screenshots/menu-alumnos.png)
 
 ### Vista de formulario de Alumno
-![Formulario de Alumno](screenshots/alumno_form.png)
+![Formulario de Alumno](screenshots/formulario-nuevo-alumno.png)
+
+### Menú Programa
+![Menú de Programas](screenshots/menu-programas.png)
+
+### Vista de formulario de Programas
+![Formulario de Programas](screenshots/formulario-nuevo-programa.png)
+
+### Menú Inscripción
+![Menú de Inscripciones](screenshots/menu-inscripciones.png)
+
+### Vista de formulario de Inscripciones
+![Formulario de Programas](screenshots/formulario-nueva-inscripcion1.png)
+![Formulario de Programas2](screenshots/formulario-nueva-inscripcion2.png)
 
 ### Resultado del endpoint API
-![Respuesta JSON del endpoint](screenshots/api_result.png)
+![Respuesta JSON del endpoint](screenshots/get-json-inscripcion.png)
 
